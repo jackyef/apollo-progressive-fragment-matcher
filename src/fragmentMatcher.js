@@ -85,7 +85,10 @@ const strategies = {
 
 export class ProgressiveFragmentMatcher {
   constructor (options) {
-    const { strategy: name } = { ...defaultOptions, ...options }
+    const { strategy: name, initialPossibleTypesMap } = {
+      ...defaultOptions,
+      ...options
+    }
 
     if (!strategies[name]) {
       const strategyNames = Object.keys(strategies)
@@ -100,7 +103,7 @@ export class ProgressiveFragmentMatcher {
     const strategy = strategies[name]
 
     // initiate type map.
-    this.possibleTypesMap = {}
+    this.possibleTypesMap = initialPossibleTypesMap || {}
     this.match = this.match.bind(this)
 
     // set strategy based methods.

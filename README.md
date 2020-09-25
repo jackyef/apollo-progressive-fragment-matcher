@@ -1,4 +1,8 @@
-# Apollo Progressive Fragment Matcher
+# Apollo Progressive Fragment Matcher (Forked)
+
+This fork does 2 things:
+1. Adds a way to add `initialPossibleTypesMap` for SSR support.
+2. Import `visit` from `graphql/language/visitors` so it doesn't bring the whole unneeded thing. [Inspired by babel-plugin-modular-graphql](https://www.npmjs.com/package/babel-plugin-modular-graphql)
 
 [![Version](https://img.shields.io/npm/v/apollo-progressive-fragment-matcher.svg?style=flat-square)](https://www.npmjs.com/package/apollo-progressive-fragment-matcher)
 [![License](https://img.shields.io/npm/l/apollo-progressive-fragment-matcher.svg)](https://github.com/lucasconstantino/apollo-progressive-fragment-matcher/blob/master/package.json)

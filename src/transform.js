@@ -1,4 +1,4 @@
-import { visit } from 'graphql/language'
+import { visit } from 'graphql/language/visitor'
 
 const defaultConfig = {
   possibleTypes: {},

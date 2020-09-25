@@ -5,11 +5,11 @@ This fork does 2 things:
 2. Import `visit` from `graphql/language/visitors` so it doesn't bring the whole unneeded thing. [Inspired by babel-plugin-modular-graphql](https://www.npmjs.com/package/babel-plugin-modular-graphql) ([5092aa](https://github.com/jackyef/apollo-progressive-fragment-matcher/commit/5092aa039e845c44465be64ca0e515dfad77db7a))
    - Before:
 
-     ![image](https://user-images.githubusercontent.com/7252454/94219276-a9b51d00-ff10-11ea-96ec-e5f3170e788b.png)
+     ![image](https://user-images.githubusercontent.com/7252454/94221247-eaaf3080-ff14-11ea-88b9-7cf421c3be8b.png)
 
    - After:
 
-     ![image](https://user-images.githubusercontent.com/7252454/94219308-b76aa280-ff10-11ea-8af1-f3eea53c8153.png)
+     ![image](https://user-images.githubusercontent.com/7252454/94221307-0a465900-ff15-11ea-93ac-a7cdfd99f830.png)
 
 
 ---- End of forked information ----
